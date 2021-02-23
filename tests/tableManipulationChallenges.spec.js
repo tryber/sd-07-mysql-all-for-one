@@ -64,7 +64,7 @@ describe('Desafios de manipulação de tabelas', () => {
     });
 
     describe('Adicione, com um único `INSERT`, duas linhas ao `order_details` com os mesmos dados. Esses dados são novamente os mesmos do requisito 20', () => {
-      it.skip('Verifica o desafio21', async () => {
+      it('Verifica o desafio21', async () => {
         const challengeQuery = readFileSync('desafio21.sql', 'utf8').trim();
         const lastOrderDetailsId = (
           await sequelize.query(lastOrderDetailsIdsQuery(), { type: 'SELECT' })
