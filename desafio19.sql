@@ -1,1 +1,1 @@
-SELECT count(*) FROM northwind.orders WHERE employee_id IN (5, 6) ; 
+SELECT count(*) FROM northwind.orders AS orders_count WHERE employee_id IN (5, 6) ; 
