@@ -103,7 +103,7 @@ describe('Desafios sobre filtragem de dados', () => {
   });
 
   describe('Mostre os registros das colunas `id` e `supplier_id` das `purchase_orders` em que os `supplier_id` sejam tanto 1, ou 3, ou 5, ou 7', () => {
-    it.skip('Verifica o desafio17', async () => {
+    it('Verifica o desafio17', async () => {
       const challengeQuery = readFileSync('desafio17.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult17');
 
