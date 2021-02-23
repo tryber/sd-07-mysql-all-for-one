@@ -1,0 +1,1 @@
+SELECT count(*) FROM northwind.orders where employee_id in (5, 6) ; 
