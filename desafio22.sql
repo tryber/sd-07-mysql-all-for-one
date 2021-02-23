@@ -1,3 +1,3 @@
 update order_details
 set 
-	discount = 15;
+discount = 15;
