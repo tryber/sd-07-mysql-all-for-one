@@ -1,2 +1,1 @@
--- PERGUNTAR NO PLANTÃO COMO EU FAÇO ISSO
---MYSQL_USER=root MYSQL_PASSWORD=melissaGomes HOSTNAME=localhost npm test
+SELECT * FROM northwind.orders LIMIT 10 OFFSET 3;
