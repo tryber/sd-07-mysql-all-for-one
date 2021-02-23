@@ -3,7 +3,7 @@ WHERE notes IS NOT NULL;
 
 SELECT * FROM northwind.purchase_orders
 ORDER BY
-	CASE
+CASE
     WHEN created_by >= 3 THEN 1
     ELSE 2 END,
     id;
