@@ -25,7 +25,7 @@ describe('Desafios sobre filtragem de dados', () => {
   });
 
   describe('Mostre todos os valores de `notes` da tabela `purchase_orders` que não são nulos', () => {
-    it.skip('Verifica o desafio9', async () => {
+    it('Verifica o desafio9', async () => {
       const challengeQuery = readFileSync('desafio9.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult9');
 
