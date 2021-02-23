@@ -34,7 +34,7 @@ describe('Desafios iniciais', () => {
   });
 
   describe('Exiba os dados de todas as colunas da tabela `products`', () => {
-    it('Verifica o desafio2', async () => {
+    it.skip('Verifica o desafio2', async () => {
       const challengeQuery = readFileSync('desafio2.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult2');
 
@@ -43,7 +43,7 @@ describe('Desafios iniciais', () => {
   });
 
   describe('Escreva uma query que exiba os valores da coluna que representa a primary key da tabela `products`', () => {
-    it('Verifica o desafio3', async () => {
+    it.skip('Verifica o desafio3', async () => {
       const challengeQuery = readFileSync('desafio3.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult3');
 
@@ -52,7 +52,7 @@ describe('Desafios iniciais', () => {
   });
 
   describe('Conte quantos registros existem em `product_name` de `products`', () => {
-    it('Verifica o desafio4', async () => {
+    it.skip('Verifica o desafio4', async () => {
       const challengeQuery = readFileSync('desafio4.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult4');
 
@@ -61,7 +61,7 @@ describe('Desafios iniciais', () => {
   });
 
   describe('Monte uma query que exiba os dados da tabela `products` a partir do quarto registro até o décimo terceiro, incluindo tanto um quanto o outro', () => {
-    it('Verifica o desafio5', async () => {
+    it.skip('Verifica o desafio5', async () => {
       const challengeQuery = readFileSync('desafio5.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult5');
 
@@ -70,7 +70,7 @@ describe('Desafios iniciais', () => {
   });
 
   describe('Exiba os dados das colunas `product_name` e `id` da tabela `products` de maneira que os resultados estejam em ordem alfabética dos nomes', () => {
-    it('Verifica o desafio6', async () => {
+    it.skip('Verifica o desafio6', async () => {
       const challengeQuery = readFileSync('desafio6.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult6');
 
@@ -79,7 +79,7 @@ describe('Desafios iniciais', () => {
   });
 
   describe('Mostre apenas os ids dos 5 últimos registros da tabela `products` (a ordernação deve ser baseada na coluna `id`)', () => {
-    it('Verifica o desafio7', async () => {
+    it.skip('Verifica o desafio7', async () => {
       const challengeQuery = readFileSync('desafio7.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult7');
 
@@ -88,7 +88,7 @@ describe('Desafios iniciais', () => {
   });
 
   describe('Faça uma consulta que retorne três colunas contendo os nomes `A`, `Trybe` e `eh` com os valores `5 + 6`, `"de"` e `2 + 8`, respectivamente', () => {
-    it('Verifica o desafio8', async () => {
+    it.skip('Verifica o desafio8', async () => {
       const challengeQuery = readFileSync('desafio8.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult8');
 
