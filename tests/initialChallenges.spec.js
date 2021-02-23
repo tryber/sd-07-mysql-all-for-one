@@ -6,7 +6,6 @@ describe('Desafios iniciais', () => {
   let sequelize;
 
   beforeAll(async () => {
-    console.log(process.env.MYSQL_USER, process.env.MYSQL_PASSWORD, process.env.HOSTNAME)
     const importer = new Importer(
       { user: process.env.MYSQL_USER, password: process.env.MYSQL_PASSWORD, host: process.env.HOSTNAME }
     );
