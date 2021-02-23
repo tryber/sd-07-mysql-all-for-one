@@ -1,1 +1,1 @@
-SELECT CAST(SUM(5+6) AS DECIMAL(10)) AS A, 'de' as Trybe, CAST(SUM(2+8) AS DECIMAL(10)) as eh;
+SELECT 5+6 AS A, 'de' as Trybe, 2+8 as eh;
