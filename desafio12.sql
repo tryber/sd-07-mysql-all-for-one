@@ -1,1 +1,1 @@
-SELECT submitted_date FROM purchase_orders WHERE submitted_date LIKE '2006-04-26%';
+SELECT submitted_date FROM purchase_orders WHERE submitted_date BETWEEN "2006-04-26 00:00:00" AND "2006-04-26 23:59:59"; 
