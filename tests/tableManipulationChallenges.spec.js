@@ -117,7 +117,7 @@ describe('Desafios de manipulação de tabelas', () => {
     });
 
     describe('Atualize os dados de `discount` da tabela `order_details` para 45 cuja `unit_price` seja maior que 10.0000 e o id seja um número entre 30 a 40', () => {
-      it.skip('Verifica o desafio24', async () => {
+      it('Verifica o desafio24', async () => {
         const challengeQuery = readFileSync('desafio24.sql', 'utf8').trim();
 
         expect(await sequelize.query(countOrderDetailsByDiscountQuery(45), { type: 'SELECT' }))
