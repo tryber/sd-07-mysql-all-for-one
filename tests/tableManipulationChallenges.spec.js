@@ -135,7 +135,7 @@ describe('Desafios de manipulação de tabelas', () => {
     const countOrderDetailsQuery = 'SELECT COUNT(*) AS details_count FROM order_details;';
 
     describe('Delete todos os dados em que a `unit_price` da tabela `order_details` seja menor que 10.0000', () => {
-      it.skip('Verifica o desafio25', async () => {
+      it('Verifica o desafio25', async () => {
         const challengeQuery = readFileSync('desafio25.sql', 'utf8').trim();
 
         expect(await sequelize.query(countOrderDetailsQuery, { type: 'SELECT' }))
