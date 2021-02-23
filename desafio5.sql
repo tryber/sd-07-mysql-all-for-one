@@ -1,1 +1,1 @@
-SELECT * FROM northwind.products limit 3, 13;
+SELECT * FROM northwind.products LIMIT 3, 10;
