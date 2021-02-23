@@ -1,1 +1,1 @@
-DELETE FROM northwind.order_details;Projet
+DELETE FROM northwind.order_details;
