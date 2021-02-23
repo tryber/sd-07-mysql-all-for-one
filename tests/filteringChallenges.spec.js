@@ -92,7 +92,7 @@ describe('Desafios sobre filtragem de dados', () => {
   });
 
   describe('Exiba a `submitted_date` das `purchase_orders` que estão entre `2006-01-26 00:00:00` e `2006-03-31 23:59:59`', () => {
-    it.skip('Verifica o desafio16', async () => {
+    it('Verifica o desafio16', async () => {
       const challengeQuery = readFileSync('desafio16.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult16');
 
