@@ -1,0 +1,1 @@
+SELECT HOUR(submitted_date) from northwind.purchase_orders AS submitted_hour;
