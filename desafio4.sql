@@ -1,0 +1,1 @@
+select COUNT( distinct product_name) from northwind.products;
