@@ -1,0 +1,1 @@
+Select count(*) from northwind.products;
