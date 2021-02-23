@@ -1,3 +1,5 @@
-SELECT COUNT(*) AS orders_count FROM northwind.orders
-WHERE employee_id = 5 OR employee_id = 6
-AND shipper_id = 2;
+SET SQL_SAFE_UPDATES = 0;
+UPDATE northwind.order_details
+SET discount = 30
+WHERE unit_price < 100000
+AND id > 30 AND id < 40;
