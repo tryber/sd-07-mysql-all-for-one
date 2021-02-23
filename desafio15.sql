@@ -1,1 +1,1 @@
-SELECT HOUR(submitted_date) from northwind.purchase_orders AS submitted_hour;
+SELECT HOUR(submitted_date) AS submitted_hour from northwind.purchase_orders;
