@@ -1,0 +1,1 @@
+SELECT submitted_date FROM northwind.purchase_orders WHERE '2006-04-26' = DATE(submitted_date);
