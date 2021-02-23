@@ -7,6 +7,7 @@ describe('Desafios de manipulação de tabelas', () => {
   let sequelize;
 
   beforeAll(() => {
+    jest.setTimeout(200000);
     importer = new Importer(
       { user: process.env.MYSQL_USER, password: process.env.MYSQL_PASSWORD, host: process.env.HOSTNAME }
     );
