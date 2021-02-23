@@ -1,3 +1,3 @@
-update order_details
-set 
+UPDATE order_details
+SET 
 discount = 15;

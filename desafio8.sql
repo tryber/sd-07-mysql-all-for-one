@@ -1,1 +1,1 @@
-select 5+6 as A, 'de' as Trybe, 2+8 as eh;
+SELECT 5+6 AS A, 'de' AS Trybe, 2+8 AS eh;

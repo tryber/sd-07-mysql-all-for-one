@@ -1,4 +1,4 @@
-update order_details
-set 
+UPDATE order_details
+SET 
 discount = 30
-where unit_price < 10.0000;
+WHERE unit_price < 10.0000;

@@ -1,6 +1,6 @@
-set sql_safe_updates = 0;
+SET sql_safe_updates = 0;
 
-insert into northwind.order_details (
+INSERT INTO northwind.order_details (
 order_id,
 product_id,
 quantity,
@@ -11,5 +11,5 @@ date_allocated,
 purchase_order_id,
 inventory_id
 )
-values
+VALUES
 (69, 80, 15.0000, 15.0000, 0, 2, NULL, NULL, 129);

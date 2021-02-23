@@ -1,1 +1,1 @@
-SELECT id FROM northwind.products order by id limit 5 offset 40;
+SELECT id FROM northwind.products ORDER BY id LIMIT 5 OFFSET 40;
