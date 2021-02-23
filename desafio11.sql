@@ -1,3 +1,4 @@
 SELECT notes FROM northwind.purchase_orders
-WHERE id >= 96 AND id <=100;
+WHERE notes >= 'Purchase generated based on Order #30'
+AND notes <='Purchase generated based on Order #39';
 
