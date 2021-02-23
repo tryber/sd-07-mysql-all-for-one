@@ -1,1 +1,1 @@
-UPDATE order_details SET discount = 15 WHERE id = 1;
+UPDATE order_details SET discount = 15;
