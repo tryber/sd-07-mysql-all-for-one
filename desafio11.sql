@@ -1,9 +1,2 @@
-SELECT 
-    notes
-FROM 
-    northwind.purchase_orders
-WHERE 
-    notes 
-LIKE 
-    "%#3_";
+SELECT notes FROM northwind.purchase_orders WHERE notes LIKE "%#3_";
     
