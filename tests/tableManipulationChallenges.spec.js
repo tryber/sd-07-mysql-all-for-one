@@ -103,7 +103,7 @@ describe('Desafios de manipulação de tabelas', () => {
     });
 
     describe('Atualize os dados de `discount` da tabela `order_details` para 30 cuja `unit_price` seja menor que 10.0000', () => {
-      it.skip('Verifica o desafio23', async () => {
+      it('Verifica o desafio23', async () => {
         const challengeQuery = readFileSync('desafio23.sql', 'utf8').trim();
 
         expect(await sequelize.query(countOrderDetailsByDiscountQuery(30), { type: 'SELECT' }))
