@@ -34,7 +34,7 @@ describe('Desafios iniciais', () => {
   });
 
   describe('Exiba os dados de todas as colunas da tabela `products`', () => {
-    it.skip('Verifica o desafio2', async () => {
+    it('Verifica o desafio2', async () => {
       const challengeQuery = readFileSync('desafio2.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult2');
 
@@ -43,7 +43,7 @@ describe('Desafios iniciais', () => {
   });
 
   describe('Escreva uma query que exiba os valores da coluna que representa a primary key da tabela `products`', () => {
-    it.skip('Verifica o desafio3', async () => {
+    it('Verifica o desafio3', async () => {
       const challengeQuery = readFileSync('desafio3.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult3');
 
@@ -52,7 +52,7 @@ describe('Desafios iniciais', () => {
   });
 
   describe('Conte quantos registros existem em `product_name` de `products`', () => {
-    it.skip('Verifica o desafio4', async () => {
+    it('Verifica o desafio4', async () => {
       const challengeQuery = readFileSync('desafio4.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult4');
 
