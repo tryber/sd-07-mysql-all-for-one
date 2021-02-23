@@ -1,5 +1,3 @@
-SET sql_safe_updates = 0;
-
 INSERT INTO northwind.order_details (
 order_id,
 product_id,
