@@ -88,7 +88,7 @@ describe('Desafios iniciais', () => {
   });
 
   describe('Faça uma consulta que retorne três colunas contendo os nomes `A`, `Trybe` e `eh` com os valores `5 + 6`, `"de"` e `2 + 8`, respectivamente', () => {
-    it.skip('Verifica o desafio8', async () => {
+    it('Verifica o desafio8', async () => {
       const challengeQuery = readFileSync('desafio8.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult8');
 
