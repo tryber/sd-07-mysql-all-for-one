@@ -112,7 +112,7 @@ describe('Desafios sobre filtragem de dados', () => {
   });
 
   describe('Mostre todos os registros de `purchase_orders` que tem o `supplier_id` igual a 3 e `status_id` igual a 2', () => {
-    it.skip('Verifica o desafio18', async () => {
+    it('Verifica o desafio18', async () => {
       const challengeQuery = readFileSync('desafio18.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult18');
 
