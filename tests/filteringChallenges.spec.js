@@ -65,7 +65,7 @@ describe('Desafios sobre filtragem de dados', () => {
   });
 
   describe('Mostre o `supplier_id` das `purchase_orders` em que o `supplier_id` seja 1 ou 3', () => {
-    it.skip('Verifica o desafio13', async () => {
+    it('Verifica o desafio13', async () => {
       const challengeQuery = readFileSync('desafio13.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult13');
 
