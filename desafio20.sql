@@ -1,0 +1,1 @@
+INSERT INTO order_details VALUES (NULL, 69, 80, 15.000, 15.000, 0, 2, NULL, NULL, 129);
