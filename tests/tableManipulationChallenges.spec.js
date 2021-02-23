@@ -163,7 +163,7 @@ describe('Desafios de manipulação de tabelas', () => {
     });
 
     describe('Delete todos os dados da tabela `order_details`', () => {
-      it.skip('Verifica o desafio27', async () => {
+      it('Verifica o desafio27', async () => {
         const challengeQuery = readFileSync('desafio27.sql', 'utf8').trim();
 
         expect(await sequelize.query(countOrderDetailsQuery, { type: 'SELECT' }))
