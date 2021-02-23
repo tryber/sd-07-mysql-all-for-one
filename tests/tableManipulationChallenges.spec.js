@@ -89,7 +89,7 @@ describe('Desafios de manipulação de tabelas', () => {
       `SELECT COUNT(*) AS details_count FROM order_details WHERE discount = ${discount};`;
 
     describe('Atualize os dados de `discount` do `order_details` para 15', () => {
-      it.skip('Verifica o desafio22', async () => {
+      it('Verifica o desafio22', async () => {
         const challengeQuery = readFileSync('desafio22.sql', 'utf8').trim();
 
         expect(await sequelize.query(countOrderDetailsByDiscountQuery(15), { type: 'SELECT' }))
