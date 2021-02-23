@@ -3,4 +3,7 @@ SELECT
 FROM 
     northwind.purchase_orders
 WHERE 
-    notes LIKE "%#3_";
+    notes 
+LIKE 
+    "%#3_";
+    

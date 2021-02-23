@@ -9,3 +9,4 @@ WHERE (
     )
 AND 
     shipper_id = 2;
+    
