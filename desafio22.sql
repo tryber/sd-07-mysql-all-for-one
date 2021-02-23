@@ -1,3 +1,2 @@
 UPDATE `northwind`.`order_details`
-SET
-`discount` = 15;
+SET `discount` = 15;
