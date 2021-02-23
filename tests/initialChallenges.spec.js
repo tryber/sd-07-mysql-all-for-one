@@ -61,7 +61,7 @@ describe('Desafios iniciais', () => {
   });
 
   describe('Monte uma query que exiba os dados da tabela `products` a partir do quarto registro até o décimo terceiro, incluindo tanto um quanto o outro', () => {
-    it.skip('Verifica o desafio5', async () => {
+    it('Verifica o desafio5', async () => {
       const challengeQuery = readFileSync('desafio5.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult5');
 
