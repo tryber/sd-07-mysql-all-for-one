@@ -1,0 +1,1 @@
+SELECT distinct notes FROM northwind.purchase_orders;
