@@ -1,0 +1,1 @@
+SELECT (products.product_name, products.id) FROM products ORDER BY products.product_name
