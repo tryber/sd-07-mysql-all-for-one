@@ -1,0 +1,1 @@
+SELECT COUNT(products.product_name) FROM products
