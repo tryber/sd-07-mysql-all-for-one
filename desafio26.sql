@@ -1,2 +1,4 @@
-SELECT * FROM northwind.purchase_orders
-WHERE supplier_id = 3 AND status_id = 2;
+SET SQL_SAFE_UPDATES = 0;
+
+DELETE from northwind.order_details
+WHERE unit_price > '10000';
