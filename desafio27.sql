@@ -1,0 +1,1 @@
+DELETE FROM northwind.orders_details;
