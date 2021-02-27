@@ -1,1 +1,1 @@
-DELETE * FROM order_details;
+DELETE FROM order_details;
