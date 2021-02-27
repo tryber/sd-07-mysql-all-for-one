@@ -1,1 +1,1 @@
-select * from northwind.order_details;
+delete from northwind.order_details;
