@@ -1,1 +1,1 @@
-SELECT * FROM northwind.purchase_orders where supplier_id = 3 and status_id = 2;
+SELECT * FROM northwind.purchase_orders WHERE supplier_id IN(3,2);
