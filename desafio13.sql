@@ -1,0 +1,1 @@
+SELECT supplier_id FROM northwind.purchase_ordersWHERE supplier_id IN (1, 3);
