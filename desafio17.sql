@@ -1,3 +1,3 @@
-select submitted_date from northwind.purchase_orders
-where submitted_date between
-'2006-01-26 00:00:00' and '2006-03-31 23:59:59';
+select id, supplier_id from northwind.purchase_orders
+where supplier_id = 1 or supplier_id = 3
+or supplier_id = 5 or supplier_id = 7;
