@@ -1,2 +1,2 @@
-SELECT notes FROM purchase_orders
+SELECT notes FROM northwind.purchase_orders
 WHERE notes IS NOT NULL;
