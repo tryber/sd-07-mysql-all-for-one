@@ -1,1 +1,1 @@
-SELECT id FROM northwind.products 
+SELECT * FROM northwind.products limit 10 offset 3

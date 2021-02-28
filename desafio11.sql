@@ -1,6 +1,10 @@
 SELECT
-submitted_date
+notes
 FROM
 northwind.purchase_orders
 WHERE
-submitted_date LIKE '2006-04-26%';
+notes
+BETWEEN
+'Purchase generated based on Order #30'
+AND
+'Purchase generated based on Order #39';
