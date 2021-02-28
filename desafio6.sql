@@ -1,1 +1,1 @@
-SELECT (products.product_name, products.id) ORDER BY products.product_name
+SELECT (product_name, id) FROM products ORDER BY product_name

@@ -1,1 +1,1 @@
-SELECT * FROM products WHERE products.id BETWEEN 4 AND 13
+SELECT * FROM products WHERE id BETWEEN 4 AND 13
