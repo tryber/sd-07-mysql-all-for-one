@@ -1,10 +1,10 @@
 SELECT
-	notes
+notes
 FROM
-	northwind.purchase_orders
+northwind.purchase_orders
 WHERE
-	notes
+notes
 BETWEEN
-	'Purchase generated based on Order #30'
+'Purchase generated based on Order #30'
 AND
-	'Purchase generated based on Order #39'
+'Purchase generated based on Order #39';
