@@ -1,1 +1,1 @@
-SELECT notes from northwind.purchase_orders WHERE notes BETWEEN 30 AND 39;
+SELECT notes from northwind.purchase_orders WHERE notes IN (30,31,32,33,34,35,36,37,38,39);
