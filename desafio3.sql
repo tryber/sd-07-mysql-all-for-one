@@ -1,1 +1,1 @@
-SELECT products.id from products
+SELECT id from northwind.products
