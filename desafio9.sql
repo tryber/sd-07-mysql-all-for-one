@@ -1,3 +1,2 @@
-/* SELECT notes FROM northwind.purchase_orders WHERE notes LIKE 'Pur%';
- */
-SELECT * FROM northwind.purchase_orders WHERE notes IS NOT NULL;
+SELECT notes FROM northwind.purchase_orders
+WHERE notes IS NOT NULL;
