@@ -24,7 +24,7 @@ describe('Desafios iniciais', () => {
     sequelize.close();
   });
 
-  describe('Exiba apenas os nomes do produtos na tabela `products`', () => {
+ describe('Exiba apenas os nomes do produtos na tabela `products`', () => {
     it('Verifica o desafio1', async () => {
       const challengeQuery = readFileSync('desafio1.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult1');
