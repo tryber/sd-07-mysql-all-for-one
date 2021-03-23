@@ -1,2 +1,1 @@
-USE northwind;
-SELECT id FROM products;
+SELECT id FROM northwind.products;
