@@ -1,0 +1,1 @@
+Select submitted_date from northwind.purchase_orders where submitted_date between '2006-04-25 00:00:00' and '2006-04-26 18:33:52';

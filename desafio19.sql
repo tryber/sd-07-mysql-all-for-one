@@ -1,0 +1,1 @@
+Select count(*) as orders_count from northwind.orders where	shipper_id = 2 and (employee_id = 5 or employee_id = 6);
