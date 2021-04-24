@@ -1,0 +1,1 @@
+SELECT id FROM (SELECT id FROM northwind.products ORDER BY id DESC LIMIT 5) S ORDER BY id DESC;
