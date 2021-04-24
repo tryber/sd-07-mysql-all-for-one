@@ -39,7 +39,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
         * `git status` (deve aparecer listado o arquivo _desafio1.sql_ em verde)
   * Faça o `commit` inicial
       * Exemplo:
-        * `git commit -m 'iniciando o projeto MySQL All For One'` (fazendo o primeiro commit)
+        * `git commit -m 'iniciando o projeto MySQL All For -+-One'` (fazendo o primeiro commit)
         * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
 
 6. Adicione a sua branch com o novo `commit` ao repositório remoto
